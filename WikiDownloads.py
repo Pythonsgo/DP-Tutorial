@@ -49,7 +49,7 @@ def find_download_location(url):
 	for link in soup.findAll("li", "file", "a"):
 		if "pages-articles" in link.a["href"] and "-m" not in link.a["href"]: 
 			info_dict = {"location": link.a["href"], "size": link.a.next.next}
-			info_list = info_list.append(info_dict)		
+			info_list.append(info_dict)		
 	return info_list
 
 
