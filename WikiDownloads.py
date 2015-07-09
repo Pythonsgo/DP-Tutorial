@@ -64,7 +64,7 @@ def find_download_location(url):
 if __name__ == "__main__":
 	
 	#Generate the list of all wiki project locations
-	link_list = [str(link.get("href")) for link in get_soup(wiki_url).findAll("a")]	
+	link_list = [link.get("href") for link in get_soup(wiki_url).findAll("a")]	
 
 	
 	#Create csv file for results

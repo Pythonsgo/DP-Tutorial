@@ -38,7 +38,7 @@ def read_file_location(path, fieldnames):
 def find_link_list(url):
 	html_page = urllib2.urlopen(url)
 	soup = BeautifulSoup(html_page)
-	link_list = [str(link.get("href")) for link in soup.findAll("a")]
+	link_list = [link.get("href") for link in soup.findAll("a")]
 	return link_list
 
 	
