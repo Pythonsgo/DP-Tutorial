@@ -32,14 +32,14 @@ def read_file_location(path, fieldnames):
 	with open(path, 'rU') as data:
 		reader = csv.DictReader(data, fieldnames = fieldnames)
 		for row in reader:
-			yield row		
+			yield row	
 			
-# This functions takes a url for an html page, parses it, and prints a list of all the links
-def find_link_list(url):
+# This function takes a url for an html page and returns a beautiful soup object
+def get_soup(url):
 	html_page = urllib2.urlopen(url)
 	soup = BeautifulSoup(html_page)
-	link_list = [link.get("href") for link in soup.findAll("a")]
-	return link_list
+	return soup	
+			
 
 	
 ##########################################################################
@@ -50,7 +50,8 @@ def find_link_list(url):
 if __name__ == "__main__":
 	
 	#Generate the list of all wiki project locations
-	link_list = find_link_list(wiki_url)
+	soup = get_soup(wiki_url)
+	link_list = [link.get("href") for link in soup.findAll("a")]
 	
 	#Create csv file for results
 	with open(OUTPATH, 'wb') as f:
@@ -58,8 +59,8 @@ if __name__ == "__main__":
 	
 		#Add the most current wiki project location for each language
 		for idx, row in enumerate(read_file_location(DATAPATH, field_names)): 
-			for link in link_list:
-				if row['Wiki'] + "/" in link and row['Wiki'][0]==link[0]:
+			for link in link_list:				
+				if "/" + row['Wiki'] + "/" in "/" + link:
 					row['Base_url']=link
 					dict_writer.writerow(row)
 					idx = idx + 1

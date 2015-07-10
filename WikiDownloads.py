@@ -74,7 +74,7 @@ if __name__ == "__main__":
 		#Add the most current wiki project location for each language
 		for idx, row in enumerate(read_file_location(DATAPATH, field_names)):
 			for link in link_list:
-				if row['Wiki'] + "/" in link and row['Wiki'][0]==link[0]:
+				if "/" + row['Wiki'] + "/" in "/" + link:
 					row['Base_url']=link
 					info_list = find_download_location(wiki_stub+link+"/")
 					for item in info_list:

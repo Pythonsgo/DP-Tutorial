@@ -20,6 +20,7 @@ Samogitian,bat-smg,bat_smgwiki,bat_smgwiki/20150702
 Bashkir,ba,bawiki,bawiki/20150702
 Central Bicolano,bcl,bclwiki,bclwiki/20150702
 Belarusian,be,bewiki,bewiki/20150702
+Belarusian (Tara_kievica),be-x-old,be_x_oldwiki,be_x_oldwiki/20150702
 Bulgarian,bg,bgwiki,bgwiki/20150702
 Bhojpuri,bh,bhwiki,bhwiki/20150702
 Bislama,bi,biwiki,biwiki/20150702
@@ -51,10 +52,7 @@ Old Church Slavonic,cu,cuwiki,cuwiki/20150702
 Chuvash,cv,cvwiki,cvwiki/20150702
 Welsh,cy,cywiki,cywiki/20150702
 Danish,da,dawiki,dawiki/20150702
-German1,de,dewiki,dewiki/20150703
-German2,de,dewiki,dewiki/20150703
-German3,de,dewiki,dewiki/20150703
-German4,de,dewiki,dewiki/20150703
+German,de,dewiki,dewiki/20150703
 Zazaki,diq,diqwiki,diqwiki/20150702
 Lower Sorbian,dsb,dsbwiki,dsbwiki/20150702
 Divehi,dv,dvwiki,dvwiki/20150702
@@ -62,53 +60,21 @@ Dzongkha,dz,dzwiki,dzwiki/20150702
 Ewe,ee,eewiki,eewiki/20150702
 Greek,el,elwiki,elwiki/20150702
 Emilian-Romagnol,eml,emlwiki,emlwiki/20150702
-English1,en,enwiki,enwiki/20150702
-English2,en,enwiki,enwiki/20150702
-English3,en,enwiki,enwiki/20150702
-English4,en,enwiki,enwiki/20150702
-English5,en,enwiki,enwiki/20150702
-English6,en,enwiki,enwiki/20150702
-English7,en,enwiki,enwiki/20150702
-English8,en,enwiki,enwiki/20150702
-English9,en,enwiki,enwiki/20150702
-English10,en,enwiki,enwiki/20150702
-English11,en,enwiki,enwiki/20150702
-English12,en,enwiki,enwiki/20150702
-English13,en,enwiki,enwiki/20150702
-English14,en,enwiki,enwiki/20150702
-English15,en,enwiki,enwiki/20150702
-English16,en,enwiki,enwiki/20150702
-English17,en,enwiki,enwiki/20150702
-English18,en,enwiki,enwiki/20150702
-English19,en,enwiki,enwiki/20150702
-English20,en,enwiki,enwiki/20150702
-English21,en,enwiki,enwiki/20150702
-English22,en,enwiki,enwiki/20150702
-English23,en,enwiki,enwiki/20150702
-English24,en,enwiki,enwiki/20150702
-English25,en,enwiki,enwiki/20150702
-English26,en,enwiki,enwiki/20150702
-English27,en,enwiki,enwiki/20150702
+English,en,enwiki,enwiki/20150702
 Esperanto,eo,eowiki,eowiki/20150702
-Spanish1,es,eswiki,eswiki/20150703
-Spanish2,es,eswiki,eswiki/20150703
-Spanish3,es,eswiki,eswiki/20150703
-Spanish4,es,eswiki,eswiki/20150703
+Spanish,es,eswiki,eswiki/20150703
 Estonian,et,etwiki,etwiki/20150702
 Basque,eu,euwiki,euwiki/20150703
 Extremaduran,ext,extwiki,extwiki/20150702
 Persian,fa,fawiki,fawiki/20150702
 Fula,ff,ffwiki,ffwiki/20150702
-V›ro,fiu-vro,fiu_vrowiki,fiu_vrowiki/20150702
+V_ro,fiu-vro,fiu_vrowiki,fiu_vrowiki/20150702
 Finnish,fi,fiwiki,fiwiki/20150702
 Fijian,fj,fjwiki,fjwiki/20150702
 Faroese,fo,fowiki,fowiki/20150702
 Franco-Provençal,frp,frpwiki,frpwiki/20150702
 North Frisian,frr,frrwiki,frrwiki/20150702
-French1,fr,frwiki,frwiki/20150703
-French2,fr,frwiki,frwiki/20150703
-French3,fr,frwiki,frwiki/20150703
-French4,fr,frwiki,frwiki/20150703
+French,fr,frwiki,frwiki/20150703
 Friulian,fur,furwiki,furwiki/20150702
 West Frisian,fy,fywiki,fywiki/20150702
 Gagauz,gag,gagwiki,gagwiki/20150702
@@ -199,7 +165,6 @@ Mongolian,mn,mnwiki,mnwiki/20150702
 Moldavian,mo,mowiki,mowiki/20150702
 Hill Mari,mrj,mrjwiki,mrjwiki/20150702
 Marathi,mr,mrwiki,mrwiki/20150702
-Malay,ms,mswiki,map_bmswiki/20150702
 Malay,ms,mswiki,mswiki/20150702
 Maltese,mt,mtwiki,mtwiki/20150702
 Muscogee,mus,muswiki,muswiki/20150702
@@ -216,10 +181,9 @@ Nepali,ne,newiki,newiki/20150702
 Newar,new,newwiki,newwiki/20150702
 Ndonga,ng,ngwiki,ngwiki/20150702
 Dutch,nl,nlwiki,nlwiki/20150703
-Dutch,nl,nlwiki,nds_nlwiki/20150702
 Norwegian (Nynorsk),nn,nnwiki,nnwiki/20150702
 Novial,nov,novwiki,novwiki/20150702
-Norwegian (BokmŒl),no,nowiki,nowiki/20150702
+Norwegian (Bokmël),no,nowiki,nowiki/20150702
 Norman,nrm,nrmwiki,nrmwiki/20150702
 Northern Sotho,nso,nsowiki,nsowiki/20150702
 Navajo,nv,nvwiki,nvwiki/20150702
@@ -251,10 +215,7 @@ Aromanian,roa-rup,roa_rupwiki,roa_rupwiki/20150702
 Tarantino,roa-tara,roa_tarawiki,roa_tarawiki/20150702
 Romanian,ro,rowiki,rowiki/20150702
 Rusyn,rue,ruewiki,ruewiki/20150702
-Russian1,ru,ruwiki,ruwiki/20150703
-Russian2,ru,ruwiki,ruwiki/20150703
-Russian3,ru,ruwiki,ruwiki/20150703
-Russian4,ru,ruwiki,ruwiki/20150703
+Russian,ru,ruwiki,ruwiki/20150703
 Kinyarwanda,rw,rwwiki,rwwiki/20150702
 Sakha,sah,sahwiki,sahwiki/20150702
 Sanskrit,sa,sawiki,sawiki/20150702
@@ -283,7 +244,6 @@ Swedish,sv,svwiki,svwiki/20150702
 Swahili,sw,swwiki,swwiki/20150702
 Silesian,szl,szlwiki,szlwiki/20150702
 Tamil,ta,tawiki,tawiki/20150702
-Tamil,ta,tawiki,testwikidatawiki/20150702
 Tetum,tet,tetwiki,tetwiki/20150702
 Telugu,te,tewiki,tewiki/20150702
 Tajik,tg,tgwiki,tgwiki/20150702
@@ -311,10 +271,11 @@ Vepsian,vep,vepwiki,vepwiki/20150702
 Venda,ve,vewiki,vewiki/20150703
 Vietnamese,vi,viwiki,viwiki/20150702
 West Flemish,vls,vlswiki,vlswiki/20150702
-VolapŸk,vo,vowiki,vowiki/20150702
+Volapôk,vo,vowiki,vowiki/20150702
 Waray-Waray,war,warwiki,warwiki/20150702
 Walloon,wa,wawiki,wawiki/20150702
 Wolof,wo,wowiki,wowiki/20150702
+Wu,wuu,wuuwiki,wuuwiki/20150702
 Kalmyk,xal,xalwiki,xalwiki/20150702
 Xhosa,xh,xhwiki,xhwiki/20150702
 Mingrelian,xmf,xmfwiki,xmfwiki/20150702
