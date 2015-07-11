@@ -18,8 +18,9 @@ import time
 ##########################################################################
 
 DIRNAME = os.path.dirname(__file__)
-DATAPATH = os.path.join(DIRNAME,'wikiFiles.csv')
-field_names = ["Language", "Code", "Wiki", "Size", "Location", "Date"]
+DATAPATH = os.path.join(DIRNAME,'wikiDownloadInfo.csv')
+field_names = ["Language", "Code", "Wiki", "Base_url", "Download_url", "Size"]
+stub_url = "http://download.wikimedia.org/" 
 
 ##########################################################################
 ## Modules
@@ -52,13 +53,13 @@ if __name__ == "__main__":
 
 	
 	for idx, row in enumerate(read_file_location(DATAPATH, field_names)):
-		if idx > 4: break
+		if idx > 2: break
 		
 		#Determine start time of download
 		start = time.clock()
 	
 		#Define the location of the language file to be downloaded
-		url = "http://download.wikimedia.org/" + row["Wiki"] + row["Date"] + row["Location"]
+		url = stub_url + row["Download_url"]
 				
 		#Define the storage location for the downloaded and decompressed language file
 		OUTPATH = "fixtures/" + row["Language"] + ".xml"
