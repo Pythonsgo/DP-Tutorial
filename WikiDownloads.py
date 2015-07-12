@@ -65,7 +65,7 @@ if __name__ == "__main__":
 	
 	#Generate the list of all wiki project locations
 	link_list = [link.get("href") for link in get_soup(wiki_url).findAll("a")]	
-
+ 
 	
 	#Create csv file for results
 	with open(OUTPATH, 'wb') as f:
@@ -77,10 +77,13 @@ if __name__ == "__main__":
 				if "/" + row['Wiki'] + "/" in "/" + link:
 					row['Base_url']=link
 					info_list = find_download_location(wiki_stub+link+"/")
-					for item in info_list:
-						row['Download_url'] = item['location']
-						row['Size'] = item['size']
+					if info_list == []:
 						dict_writer.writerow(row)
+					else:
+						for item in info_list:
+							row['Download_url'] = item['location']
+							row['Size'] = item['size']
+							dict_writer.writerow(row)
 					idx = idx + 1
 			
 				
