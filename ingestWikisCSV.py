@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 	
 	for idx, row in enumerate(read_file_location(DATAPATH, field_names)):
-		if idx > 2: break
+		if idx > 3: break
 		
 		#Determine start time of download
 		start = time.clock()

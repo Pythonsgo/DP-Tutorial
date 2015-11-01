@@ -22,10 +22,10 @@ DATAPATH = os.path.join(DIRNAME,'wikiDownloadInfo.csv')
 stub_url = "http://download.wikimedia.org/" 
 
 #English for this example, but can be any of the 290 languages supported by Wikipedia
-LANGUAGE = "English"
+LANGUAGE = "Dutch"
 
 #Use for all languages other than English.
-language_encoding = "Insert for language of interest here"
+language_encoding = "nlwiki"
 
 ##########################################################################
 ## Modules
@@ -54,11 +54,11 @@ if __name__ == "__main__":
 	start = time.clock()
 	
 	#Define the location of the language file to be downloaded.  This one is specific to English
-	url = stub_url + "/enwiki/latest/enwiki-latest-pages-articles1.xml-p000000010p000010000.bz2"
+	#url = stub_url + "/enwiki/latest/enwiki-latest-pages-articles1.xml-p000000010p000010000.bz2"
 	
 	#For other language files it is based on the language encoding.  For example, Spanish (eswiki)
 	#Must specify a number after articles if downloading a subdirectory.
-	#url = stub_url + "/" + language_encoding + "/latest/" + language_encoding + "-latest-pages-articles.xml.bz2"
+	url = stub_url + "/" + language_encoding + "/latest/" + language_encoding + "-latest-pages-articles1.xml.bz2"
 				
 	#Define the storage location for the downloaded and decompressed language file
 	OUTPATH = "fixtures/" + LANGUAGE + ".xml"
